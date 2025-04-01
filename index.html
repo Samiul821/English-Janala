@@ -29,16 +29,21 @@
         .poppins-font {
             font-family: "Poppins", sans-serif;
         }
-        .tiro-bangla-font{
+
+        .tiro-bangla-font {
             font-family: "Tiro Bangla", serif;
+        }
+
+        .siliguri-font {
+            font-family: "Hind Siliguri", sans-serif;
         }
     </style>
 </head>
 
-<body class="m-0 p-0 pt-[80px]">
+<body class="">
     <header>
         <!-- navbar section -->
-        <nav class="bg-slate-100 border-b-2 w-[100%] fixed top-0 left-0 z-[1000] flex justify-between px-20 py-7">
+        <nav class="bg-slate-100 border-b-2  flex justify-between px-20 py-7">
             <div class="flex items-center">
                 <h1 class="text-xl font-semibold poppins-font">English</h1>
                 <img src="assets/logo.png" alt="">
@@ -58,8 +63,28 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div>
-           
+        <div class="w-[92%] mx-auto flex justify-between items-center mb-48">
+            <div>
+                <h1 class="text-5xl font-bold poppins-font mb-6"><span class="text-[#00BCFF]">English</span> is easy!!
+                </h1>
+                <p class="siliguri-font text-2xl font-medium mb-[27px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি
+                    যদি নতুন হন অথবা <br> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br> যাবে অন্য
+                    একটি Level এ</p>
+                <div id="loginForm" class="w-[320px] space-y-5">
+                    <label class="input input-bordered flex items-center gap-2">
+                        <input id="username" type="text" class="grow" placeholder="Enter Your Name" />
+                    </label>
+                    <label class="input input-bordered flex items-center gap-2">
+                        <input id="password" type="password" class="grow" placeholder="Login pass (123456)" />
+                    </label>
+                    <button id="login-btn"
+                        class="py-[10px] px-4 border-2 border-[#422AD5] rounded font-semibold poppins-font text-[#422AD5] hover:bg-[#422AD5] hover:text-white duration-300 cursor-pointer">Get
+                        Started</button>
+                </div>
+            </div>
+            <div>
+                <img src="assets/hero-student.png" alt="">
+            </div>
         </div>
     </header>
     <main>
